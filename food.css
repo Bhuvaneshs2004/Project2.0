@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to right,#FF9A9E,#FAD0C4);
+    height: 100vh;
+    padding-top: 80px; 
+}
+.search {
+    top: 20px;
+    left:10%;
+    margin-left: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:780px;
+    height: 50px;
+    background: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#searchbar {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    border-radius: 30px;
+    background: whitesmoke;
+}
+
+
+.outer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width:1200px;
+    margin-top: 80px; 
+}
+
+
+.foodbar {
+    background: whitesmoke;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+}
+.inner{
+    margin-left: 20px;
+    background:gray;
+    background-size: cover;
+    background-position: cover;
+    border-radius: 10px;
+    width: 20%;
+    height:80%;
+    box-shadow:0px 0px 15px black ;
+
+}
+.info{
+    width:70%;
+    height:90%;
+    margin-right: 20px;
+    text-align: center;
+    background: #ebdedb;
+}
+.starts{
+    display: inline-block;
+    font-size: 24px;
+    color: gold;
+}
+.star{
+    font-size: 24px;
+    color: gold;
+}
+.inactive{
+    color: ligthgray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:5%;
+}
+.addinfo{
+
+    background-color: #3498db;
+    color: white;
+    padding:12px 24px ;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.addinfo:hover{
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+.addinfo:active{
+    transform: scale(0.9);
+}
+.order{
+
+    background-color: rgb(22, 199, 22);
+    color: white;
+    padding:12px 24px ;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.order:hover{
+    background-color:rgb(11, 131, 11);
+    transform: scale(1.1);
+}
+.order:active{
+    transform: scale(0.9);
+}
+.infobox{
+    width:70%;
+    height: 70%;
+    background:gray;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.fooddisplay{
+    width: 30%;
+    height: 50%;
+    background: white;
+    margin-left: 10%;
+    border-radius: 10px;
+}
